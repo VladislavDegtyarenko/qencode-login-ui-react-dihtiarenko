@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./fonts/BasisGrotesquePro-Regular.eot");
+  src:
+    local("./fonts/Basis Grotesque Pro Regular"),
+    local("./fonts/BasisGrotesquePro-Regular"),
+    url("./fonts/BasisGrotesquePro-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/BasisGrotesquePro-Regular.woff2") format("woff2"),
+    url("./fonts/BasisGrotesquePro-Regular.woff") format("woff"),
+    url("./fonts/BasisGrotesquePro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./fonts/BasisGrotesquePro-Bold.eot");
+  src:
+    local("Basis Grotesque Pro Bold"),
+    local("BasisGrotesquePro-Bold"),
+    url("./fonts/BasisGrotesquePro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/BasisGrotesquePro-Bold.woff2") format("woff2"),
+    url("./fonts/BasisGrotesquePro-Bold.woff") format("woff"),
+    url("./fonts/BasisGrotesquePro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url("./fonts/BasisGrotesquePro-Medium.eot");
+  src:
+    local("Basis Grotesque Pro Medium"),
+    local("BasisGrotesquePro-Medium"),
+    url("./fonts/BasisGrotesquePro-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/BasisGrotesquePro-Medium.woff2") format("woff2"),
+    url("./fonts/BasisGrotesquePro-Medium.woff") format("woff"),
+    url("./fonts/BasisGrotesquePro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root {
+  font-family: "Basis Grotesque Pro";
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
