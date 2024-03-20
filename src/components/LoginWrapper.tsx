@@ -8,7 +8,7 @@ type LoginWrapperProps = {
 
 const LoginWrapper = ({ title, children }: LoginWrapperProps) => {
   return (
-    <div className="py-12 lg:py-24">
+    <div className="px-4 py-12 lg:py-24">
       <div className="ml-auto mr-auto max-w-[400px]">
         <div className="flex flex-col items-center gap-20">
           <LogoLink />
